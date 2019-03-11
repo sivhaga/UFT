@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Error in library file.</Name>
+    <ErrorText>Error in library file.</ErrorText>
+    <Description>&lt;BR/&gt;File: C:\UFT Framework\iLab\Job Application\Job Application scripts\LIB\Reporting Functions.qfl&lt;BR/&gt;line (427): &amp;quot;	ReportFile.Write &amp;quot;&amp;lt;tr&amp;gt;&amp;lt;td bgcolor=cyan width = 100%&amp;gt;&amp;lt;div align=center&amp;gt;&amp;lt;font color=black&amp;gt;&amp;lt;font size=5&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;quot;&amp;amp;Environment.Value(&amp;quot;Application&amp;quot;)&amp;amp;&amp;quot; - &amp;quot;.&lt;BR/&gt;Description: Unterminated string constant</Description>
+    <StartTime>2019-03-08 22:39:13</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>882df314e9de450ab57e861f61e06362</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.</Description>
+    <StartTime>2019-03-08 22:39:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>61470bc994c64dd28d3f053cbe60119a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>iLab script</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.1</ToolVersion>
+    <Description />
+    <StartTime>2019-03-08 22:39:09</StartTime>
+    <Duration>29</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>3cad9ef0e04543fca261cfb30e5e474b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>English (South Africa)</Locale>
+      <User>SBICZA01\A230778</User>
+      <CpuInfo>Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>3499</TotalMemory>
+      <HostName>za.sbicdirectory.com\00620JNBSGB168L</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x86)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res18</ResultName>
+    <RunStartTime>2019-03-08 22:39:09</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.1</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

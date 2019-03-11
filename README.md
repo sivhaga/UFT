@@ -7,4 +7,4 @@ Instructions:
 5) Go to File ->Settings->Resources and add the follOwing files from C:\UFT\LIB :
    "Common Functions.qfl","iLab Functions.qfl" and "Reporting Functions.qfl"
 6) Run the script
-7) To see the consolidated report go to "C:\UFT", open folder Report_<date> and inside open the file
+7) To see the consolidated report go to "C:\UFT", open folder Report_<date> and inside open the latest file with report

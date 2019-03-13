@@ -154,7 +154,7 @@ Public Function IntializeVariables()
 	strDataSheetName=Environment.Value ("ActionName")
 'Import the local sheet
 	Datatable.AddSheet strDataSheetName
-	Datatable.ImportSheet  "C:\UFT Framework\iLab\Job Application\Job Application scripts\Data\DRIVER_iLab.xls","Path_Configuration", strDataSheetName
+	Datatable.ImportSheet  "C:\UFT\Data\DRIVER_iLab.xls","Path_Configuration", strDataSheetName
 
 'Fetching the Row count 
 	intScenarioCount = Datatable.GetSheet(strDataSheetName).GetRowCount

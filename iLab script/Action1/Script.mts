@@ -1,6 +1,6 @@
 ﻿'Initializing the variables 
-Call IntializeVariables()  
-
+ @@ hightlight id_;_Browser("CAREERS - iLAB").Page("CAREERS - iLAB").Link("South Africa")_;_script infofile_;_ZIP::ssf1.xml_;_
+Call IntializeVariables() 
 
 'In case of any error occured in between the steps, move on to next step
 On Error Resume Next
@@ -17,7 +17,7 @@ gCurrDate  = F_FormatDateTime(StartTime,"HeaderDate")
 gCurrTime  = F_FormatDateTime(StartTime,"HeaderTime")
 
 'Giving the Application name that will be displayed in Consolidated Report
-Environment.Value("Application")	= 	"iLab"
+Environment.Value("Application") = "iLab"
 
 'To write a consolidated Report for our Test Run - This will be helpful for Batch Run
 Call F_ConsolidatedReportFileHeader(gCurrDate,gCurrTime)
